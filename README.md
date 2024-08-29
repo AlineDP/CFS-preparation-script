@@ -35,7 +35,7 @@ Before running the script, ensure the following software is installed and access
 To use this script, you must have the following files in each dataset directory:
 
 1. **Processed MTZ File**: This file contains the diffraction data and must be named with a `.mtz` extension.
-2. **input.pdb**: A PDB file that will be used as the input model for molecular replacement.
+2. **input.pdb**: A PDB file that will be used as the input model for molecular replacement. It is highly recommended that you use a refined structure of a fragment-free soaked crystal from your CFS campaign as input.
 3. **input.ligands.cif**: CIF files for the ligands in the input PDB file. These can be generated using tools like ReadySet! from Phenix.
 
 **Dataset Organization**
